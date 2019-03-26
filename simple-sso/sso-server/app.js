@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const app = express();
 const engine = require("ejs-mate");
 const session = require("express-session");
-const router = require("./router");
+const router = require("../../src/router");
 
 app.use(
   session({

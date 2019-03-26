@@ -1,0 +1,29 @@
+{
+  "name": "new-typeorm-project",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/node": "^11.11.8",
+    "prettier": "^1.16.4",
+    "ts-node": "8.0.3",
+    "typescript": "3.3.4000"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "hashids": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.3.0",
+    "reflect-metadata": "^0.1.10",
+    "typedi": "^0.8.0",
+    "typeorm": "0.2.16",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}

@@ -1,10 +1,7 @@
-# A simple implementation of single sign-on (SSO)
+# Awesome Project Build with TypeORM
 
-### sso-server is our central authorization unit
+Steps to run this project:
 
-To Run these examples you need to add the below entry inside your `/etc/hosts` file in linux
-
-```
-127.0.0.1   sso.ankuranand.com
-127.0.0.1   consumer.ankuranand.in
-```
+1. Run `npm i` command
+2. Setup database settings inside `ormconfig.json` file
+3. Run `npm start` command
